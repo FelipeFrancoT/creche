@@ -33,6 +33,9 @@ p{
 h2{
   text-align: center;
 }
+h3{
+  text-align: center;
+}
 img{
   width: 60%;
   height: auto;
@@ -41,8 +44,14 @@ div{
   list-style-type: '\2714\00a0\00a0';
   columns: 2;
   list-style-position: inside;
+  
+  height: auto;
+  display:block;
+}
+div p {
   text-align: center;
-  padding: 20px;
+  align-items: center;
+  
 }
 
 main {
@@ -66,14 +75,16 @@ section {
 section img{
   padding: 20px;
   width: 100%;
+  align-items: center;
 }
 #coluna{
   list-style-type: '\2714\00a0\00a0';
   columns: 2;
   list-style-position: inside;
-  display: flex;          /* flex só nela */
-  align-items: center;    /* centraliza vertical */
-  padding: 20px;
+ 
+  padding: 5px;
+  text-align: center;
+  height:auto ;
 }
 footer {
   list-style-type: '\2714\00a0\00a0';

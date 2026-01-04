@@ -19,6 +19,7 @@ body {
 
 }
 header {
+  border-radius: 10px 10px 0px 0px;
   background: #4c93af;
   color: white;
   text-align: center;

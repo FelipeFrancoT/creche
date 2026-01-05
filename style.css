@@ -23,11 +23,22 @@ header {
   background: #4c93af;
   color: white;
   text-align: center;
-  padding: 30px 0px;
+  padding: 50px 0px;
   margin-top: 0px;
+  background-image:url(../IMG_20240919_144032.jpg);
+  background-size: cover; /* cobre tudo */
+  background-position:center ; /* centraliza */
+  background-repeat: no-repeat;
+}
+a{
+  color:#4c93af;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
 }
 p{
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 h2{
@@ -81,7 +92,7 @@ section img{
   list-style-type: '\2714\00a0\00a0';
   columns: 2;
   list-style-position: inside;
-  width: ;
+  width:90% ;
   padding: px;
   text-align: center;
   height:auto ;
@@ -97,7 +108,9 @@ footer {
   box-sizing: 10px 0px;
   border-radius: 0px 0px 10px 10px;
 }
-
+footer p{
+  padding: 0px;
+}
 
 
 footer h2 {

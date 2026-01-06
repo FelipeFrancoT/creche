@@ -1,11 +1,10 @@
 @charset "UTF-8"
 
 
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Ope;
   text-align: center;
 }
 
@@ -76,9 +75,9 @@ div p {
 
 main {
   border-radius:10px ;
-  max-width: 100%px;      /* largura boa pra telas grandes */
+  max-width: 100%;      /* largura boa pra telas grandes */
   margin: 0 auto;        /* 👈 ISSO CENTRALIZA */
-  padding: 0 10px;       /* respiro nas laterais */
+  padding: ;       /* respiro nas laterais */
 }
 
 .sobre{

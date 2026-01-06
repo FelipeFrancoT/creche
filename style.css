@@ -4,12 +4,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 
 body {
   background: rgb(214, 214, 214);
   color: #333;
+  
 }
 #principal {
     background-color:white ;
@@ -51,14 +53,7 @@ img{
   width: 60%;
   height: auto;
 }
-div{
-  list-style-type: '\2714\00a0\00a0';
-  columns: 2;
-  list-style-position: inside;
-  
-  height: auto;
-  display:;
-}
+
 div p {
   text-align: center;
   align-items: center;
@@ -66,17 +61,18 @@ div p {
 }
 
 main {
-  border-radius: 10px 10px 0px 0px;
-  border-radius: 10px ;  
-  max-width: 900px;
-  margin: 0px ;
-  padding: 0 0px;
+   
+  max-width: 1100px;      /* largura boa pra telas grandes */
+  margin: 0 auto;        /* 👈 ISSO CENTRALIZA */
+  padding: 0 20px;       /* respiro nas laterais */
 }
+
 .sobre{
     padding: 20px;
 }
 section {
   margin-bottom: 30px;
+  
   
 }
 #grande{
@@ -88,18 +84,43 @@ section img{
   width: 100%;
   align-items: center;
 }
-#coluna{
-  list-style-type: '\2714\00a0\00a0';
-  columns: 2;
-  list-style-position: inside;
-  width:90% ;
-  padding: px;
-  text-align: center;
-  height:auto ;
+.lado-a-lado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
 }
+
+.lado-a-lado p {
+  width: 50%;
+  text-align: justify;
+}
+
+.lado-a-lado img {
+  width: 45%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#duascolunas{
+  display: flex;
+  flex-direction: column; /* um embaixo do outro */
+  align-items: center;
+  gap: 20px;
+}
+.duascolunas p {
+  max-width: 600px;
+  text-align: center;
+}
+.duascolunas img {
+  width: 80%;
+  max-width: 500px;
+}
+
 footer {
   list-style-type: '\2714\00a0\00a0';
-  columns: 2;
+  
   list-style-position: inside;
   text-align: center;
   background: #c6d0d4;
@@ -124,5 +145,16 @@ footer p {
 }
 
 
+@media (max-width: 768px) {
+  .lado-a-lado {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .lado-a-lado p,
+  .lado-a-lado img {
+    width: 100%;
+  }
+}
 
 

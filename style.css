@@ -21,16 +21,24 @@ body {
 
 }
 header {
-  border-radius: 10px 10px 0px 0px;
-  background: #4c93af;
+  height: 350px; /* controla a altura do banner */
+  background-image: url(IMG_20240919_144032.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* 👈 joga o texto pra baixo */
+  align-items: center;
+
+  padding-top: 50px;
+  padding-bottom: 20px; /* distância do "chão" */
   color: white;
   text-align: center;
-  padding: 50px 0px;
-  margin-top: 0px;
-  background-image:url(IMG_20240919_144032.jpg);
-  background-size: cover; /* cobre tudo */
-  background-position:center ; /* centraliza */
-  background-repeat: no-repeat;
+}
+h1{
+  padding: 0px;
 }
 a{
   color:#4c93af;

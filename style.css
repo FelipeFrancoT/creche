@@ -1,9 +1,11 @@
 @charset "UTF-8"
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Ope;
   text-align: center;
 }
 
@@ -11,7 +13,9 @@
 body {
   background: rgb(214, 214, 214);
   color: #333;
-  
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.3em;
+
 }
 #principal {
     background-color:white ;
@@ -58,7 +62,7 @@ h3{
   text-align: center;
 }
 img{
-  width: 60%;
+  width: ;
   height: auto;
 }
 
@@ -101,12 +105,12 @@ section img{
 }
 
 .lado-a-lado p {
-  width: 50%;
-  text-align: justify;
+  width:70%;
+  text-align: center;
 }
 
 .lado-a-lado img {
-  width: 40%;
+  width: 80%;
   height: auto;
   border-radius: 8px;
 }

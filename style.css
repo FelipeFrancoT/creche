@@ -15,13 +15,14 @@ body {
   color: #333;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1.3em;
-
+  
 }
 #principal {
     background-color:white ;
     border-radius: 10px ;
     box-shadow:1px 2px rgba(0, 0, 0, 0.208) ;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.141);
+    padding: 0px 0px;
 
 }
 header {
@@ -35,6 +36,7 @@ header {
   flex-direction: column;
   justify-content: flex-end; /* 👈 joga o texto pra baixo */
   align-items: center;
+  border-radius: 10px 10px 0px 0px;
 
   padding-top: 50px;
   padding-bottom: 20px; /* distância do "chão" */
@@ -52,7 +54,7 @@ a:hover{
   color: black;
 }
 p{
-  padding: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 h2{
@@ -73,10 +75,10 @@ div p {
 }
 
 main {
-   
-  max-width: 100%;      /* largura boa pra telas grandes */
+  border-radius:10px ;
+  max-width: 100%px;      /* largura boa pra telas grandes */
   margin: 0 auto;        /* 👈 ISSO CENTRALIZA */
-  padding: 0 0px;       /* respiro nas laterais */
+  padding: 0 10px;       /* respiro nas laterais */
 }
 
 .sobre{
@@ -158,6 +160,15 @@ footer p {
 
 
 @media (max-width: 768px) {
+  body{
+    margin: 0px;
+    padding: 0 10px;
+  }
+  img{
+    max-width: 99%;
+    height: auto;
+    display: block;
+  }
   .lado-a-lado {
     flex-direction: column;
     text-align: center;
